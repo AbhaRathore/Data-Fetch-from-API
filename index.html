@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Github User Details</title>
+	<script type="text/javascript" src="details.js"></script>
+</head>
+<body>
+	<div class="container" style="width:100%; margin:5px auto;">
+		<div class="user-input" style="width: 60%; border: 1px solid black; margin:10px auto; padding:10px auto;">
+			<p>Enter User name</p>
+			<input type="text" name="user-input" id="userInput">
+			<button onclick="process()">Search</button>
+		</div>
+		<div id="userData" style="width: 60%; border: 1px solid black; margin:10px auto;  padding:10px auto;">
+			<h2>User Data</h2>
+			<img src="" id="user-avatar">
+			<button><a href="" id="github-profile">Visit Profile</a></button>
+			<h3 id="user-name"></h3>
+			<p id="user-location"></p>
+			<p id="user-email"></p>
+			<p id="user-repos"></p>
+			<p id="user-followers"></p>
+			<p id="user-following"></p>
+		</div>
+	</div>
+</body>
+</html>
